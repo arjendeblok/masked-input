@@ -1,0 +1,31 @@
+{
+  "name": "masked-input",
+  "version": "0.0.1",
+  "description": "HTML5 Masked Input",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "prepare": "npm run build",
+    "version": "git add -A src",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arjendeblok/masked-input.git"
+  },
+  "keywords": [
+    "masked", "input"
+  ],
+  "author": "Arjen de Blok",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arjendeblok/masked-input/issues"
+  },
+  "homepage": "https://github.com/arjendeblok/masked-input#readme",
+  "devDependencies": {
+    "typescript": "^4.1.2"
+  }, 
+  "files": ["lib/**/*"]
+}
